@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(24, 24, 24);
+}
+
+.container{
+    height: 1200px;
+    width: 60%;
+    margin: 10px auto;
+}
+/* classe para limpar flutuaações */
+.clear{
+    clear: both;
+}
+
+/* lado esquerdo */
+.esquerda{
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.perfil{
+    height: 280px;
+    border-radius: 50%;
+    border: solid 5px;
+    border-color: blue;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.esquerda h1{
+    color: white;
+    margin-bottom: 10px;
+}
+.esquerda h3{
+    color: blue;
+    font-style: italic; 
+}
+.esquerda p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+.esquerda h2{
+    color: blue;
+    margin-top: 50px;
+}
+.esquerda h5{
+    color: white;
+    margin-top: 3px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* img{ 
+    height: 50px;
+} /* acho que não precisa */  
+i{
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+    width: 25px;
+    margin-top: 5px;
+}
+.contatos{
+    margin-top: 150px;
+}
+.contatos p{
+    display: inline-block;
+    margin-left: 10px;
+}
+.esquerda a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.linguas p{
+    width: 100px;
+    margin-top: 15px;
+}
+.linguas .barra{
+    height: 20px;
+    width: 160px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 25px;
+}
+.linguas .progresso-33{
+    height: 100%;
+    width: 33%;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+}
+.linguas .progresso-100{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+/* lado direito */
+.direita{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 100px 30px;
+}
+hr{
+    margin-left: -30px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.direita h2{
+    margin-top: 50px;
+}
+.direita h3{
+    font-style: italic;
+    margin: 6px 0;
+}
+.direita h4{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.direita li{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.habilidades li{
+    margin: 15px 20px;
+    display: inline-block;
+    width: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.barra{
+    height: 20px;
+    width: 160px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 25px;
+}
+.progresso-25{
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
